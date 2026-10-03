@@ -72,6 +72,7 @@ def generate_launch_description():
             launch_arguments={
                 'start_rviz': start_rviz,
                 'prefix': prefix,
+                'use_sim': 'false',
                 'use_fake_hardware': use_fake_hardware,
                 'fake_sensor_commands': fake_sensor_commands,
             }.items(),
